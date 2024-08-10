@@ -27,7 +27,7 @@ body {
 }
 
 #posts {
-    margin-bottom: 20px;
+    margin-top: 20px;
     max-height: 400px;
     overflow-y: auto;
 }
@@ -72,12 +72,10 @@ button {
     cursor: pointer;
     width: 60px;
     height: 60px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 button::before {
